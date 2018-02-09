@@ -23,6 +23,13 @@ namespace Contacts.Controllers
         return View ("index", allPeople);
       }
 
+    [HttpPost("/ClearAll")]
+      public ActionResult Clear()
+      {
+        List<Contact> allPeople = Contact.DelAll();
+        return View ("ClearAll");
+      }
+
 
   }
 }
