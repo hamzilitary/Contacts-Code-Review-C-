@@ -7,7 +7,7 @@ namespace Contacts.Models
   {
     private string _name;
     private string _contactAddress;
-    private int _contactNumber;
+    private long _contactNumber;
     private int _id;
     private static List<Contact> _instances = new List<Contact> {};
 

@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/Contact-Review/bin/Debug/netcoreapp1.1/Contact.deps.json
+/Users/Guest/Desktop/Contact-Review/bin/Debug/netcoreapp1.1/Contact.runtimeconfig.json
+/Users/Guest/Desktop/Contact-Review/bin/Debug/netcoreapp1.1/Contact.runtimeconfig.dev.json
+/Users/Guest/Desktop/Contact-Review/obj/Debug/netcoreapp1.1/Contact.AssemblyInfo.cs
+/Users/Guest/Desktop/Contact-Review/bin/Debug/netcoreapp1.1/Contact.dll
+/Users/Guest/Desktop/Contact-Review/bin/Debug/netcoreapp1.1/Contact.pdb
+/Users/Guest/Desktop/Contact-Review/obj/Debug/netcoreapp1.1/Contact.dll
+/Users/Guest/Desktop/Contact-Review/obj/Debug/netcoreapp1.1/Contact.pdb
