@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Contacts</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
   </head>
   <body>
     <div class="jumbotron">
@@ -35,11 +36,13 @@
           <p>@people.GetContactNumber()<p>
 
 
+        <form class="form-group" name="" action="/PersonDown" method="post">
+          <input type="hidden" name="id" value="@people.GetId()">
+        <button class='btn btn-danger' type="submit" name="button">Remove This Person</button>
+            </form>
           </div>
+          <br>
         }
-      <form class="form-group" name="", action="/ClearAll" method="post">
-        <button type="submit" name="button">Clear All People</button>
-      </form>
       </div>
   </body>
 </html>

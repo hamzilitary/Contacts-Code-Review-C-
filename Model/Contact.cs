@@ -54,13 +54,13 @@ namespace Contacts.Models
     {
       _instances.Add(this);
     }
+    public static Contact Find(int searchId)
+    {
+      return _instances[searchId];
+    }
     public void ContactDelete()
     {
       _instances.Remove(this);
-    }
-    public static Contact Find(int searchId)
-    {
-      return _instances[searchId-1];
     }
     public static List<Contact> DelAll()
     {

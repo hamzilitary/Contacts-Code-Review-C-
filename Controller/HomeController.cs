@@ -30,6 +30,15 @@ namespace Contacts.Controllers
         return View ("ClearAll");
       }
 
+    [HttpPost("/PersonDown")]
+      public ActionResult PersonDown()
+      {
+        int targetId = Convert.ToInt32(Request.Form["id"]);
+        Contact targetCon = Contact.Find(targetId);
+        targetCon.ContactDelete();
+        return View ("PersonDown");
+      }
+
 
   }
 }
